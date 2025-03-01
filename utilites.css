@@ -1,0 +1,119 @@
+ /* Navbar */
+ .navbar {
+    background-color: transparent;
+    padding: 10px 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin-bottom: 20px;
+    transition: padding 0.3s ease-in-out;
+    /* Smooth transition for padding */
+}
+
+/* When the navbar is scrolled */
+.navbar.scrolled {
+    background-color: black !important;
+    padding: 20px 20px;
+    /* Increased padding when scrolled */
+    transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #b3b3b3;
+}
+
+/* Sign In Button */
+.sign-in-btn {
+    color: white;
+    background: #B154FF !important;
+    padding: 5px 16px;
+    font-weight: 400;
+    box-shadow: 0 -3px 6px -1px white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sign-in-btn:hover {
+    background: #B154FF;
+    box-shadow: 0 0 0 3px white;
+}
+
+/* Body styling */
+body{
+    background-color: black !important;
+}
+  /* Waves container positioning */
+  .waves-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.wave-top-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: auto;
+}
+
+.wave-bottom-left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    height: auto;
+}
+
+
+
+
+/* footer */
+.footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 40px 0;
+  }
+
+  .footer-links li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  .footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer-links a:hover {
+    color: white;
+  }
+
+  .social-icons a {
+    color: #ccc;
+    font-size: 18px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: white;
+  }
+
+  .text-muted {
+    font-size: 12px;
+  }

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap CSS for layout and styling -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Additional Bootstrap CSS (duplicate, can be removed) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons for icons (e.g., previous and next icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Google Fonts: Montserrat and Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilites.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Netflix</a>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="contactus.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex">
+          <a class="btn sign-in-btn text-light" href="login.html">Sign In</a>
+        </div>
+      </div>
+    </nav>
+    <div class="waves-container">
+        <img src="images/WavesEffects.png" class="wave wave-top-right" alt="Top Right Wave">
+        <img src="images/WavesEffect.png" class="wave wave-bottom-left" alt="Bottom Left Wave">
+    </div>
+    <div class="contactUs-container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="col-6 contact-section">
+            <h3 class="text-center text-light text-shadow mb-4">Contact Us</h3>
+            <form method="POST" action="">
+
+                <div class="form-group">
+                    <input type="text" id="name" name="name"
+                        class="form-control form-control-lg mb-3 fs-6" placeholder="Full name"
+                        required autocomplete="name" autofocus>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" name="email"
+                        class="form-control form-control-lg mb-3 fs-6" placeholder="Email address"
+                        required autocomplete="email" autofocus>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="mobile" name="mobile"
+                        class="form-control form-control-lg mb-3 fs-6"
+                        placeholder="Mobile Number"
+                        required
+                        autocomplete="tel">
+                </div>
+
+                <div class="form-group">
+                    <textarea id="message" name="message"
+                        class="form-control form-control-lg mb-3 fs-6"
+                        placeholder="Your Message"
+                        required
+                        rows="5"
+                        autocomplete="off"></textarea>
+                </div>
+
+                <div class="form-group mb-3">
+                    <button type="submit" class="btn btn-light btn-lg w-100" style="border-radius: 50px;">Send</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 mb-4">
+              <a class="navbar-brand" href="#">Netflix</a>
+              <p class="text-light small mt-3">Questions? Email netflixofficial@gmail.com</p>
+              <div class="social-icons mt-3">
+                <a href="mailto:info@netflix.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-4">
+              <ul class="footer-links">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Speed Test</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-4">
+              <ul class="footer-links">
+                <li><a href="#">Help Centre</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Legal Notices</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-4">
+              <ul class="footer-links">
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Ways to Watch</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 mb-4">
+              <ul class="footer-links">
+                <li><a href="#">Media Centre</a></li>
+                <li><a href="#">Terms of Uses</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="text-center text-muted small mt-5">
+            ©Copyright 2024 All rights reserved - Website Name
+          </div>
+        </div>
+      </foot>
+  </body>
+</html>

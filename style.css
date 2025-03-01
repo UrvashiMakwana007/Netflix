@@ -1,0 +1,358 @@
+ 
+/* MostPopular and Categories Cards */
+.card {
+    border: none;
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.card-body {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.card-img-top {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card {
+    border: none;
+    /* Optional: remove default border */
+    background-color: rgba(255, 255, 255, 0) !important;
+    /* Optional: Make it transparent for minimal look */
+}
+
+.card-body {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0) !important;
+    /* Optional: Make it transparent for minimal look */
+
+}
+
+.card-img-top {
+    width: 100%;
+    /* Adjust width for responsive design */
+    border-radius: 10px;
+    /* Optional: add rounded corners */
+}
+
+.custom-card {
+    width: 270px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+.card-text.text-purple {
+    color: #9b59b6;
+    /* Custom purple color for "Watch" */
+    font-size: 16px;
+}
+
+.card-title {
+    font-size: 20px;
+    text-align: left !important;
+}
+
+
+/* services css */
+.testimonial-section {
+    padding: 80px 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0)!important;
+}
+
+.testimonial-section h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.testimonial-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0)!important;
+
+}
+
+.testimonial-card:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.testimonial-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial-name {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.testimonial-text {
+    font-size: 0.95rem;
+    color: #CCCCCC;
+    margin-top: 15px;
+}
+
+
+    /* About Us Box Styling */
+    .rounded-box {
+        background: linear-gradient(to bottom left, rgba(60, 0, 75, 0.8) 20%, #0d0d0d 30%, #00000000 90%);
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+        line-height: 30px;
+    }
+
+    /* Text Shadow for Headings */
+    .text-shadow {
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
+        font-weight: bold;
+    }
+
+/* categories css */
+.nav-pills .nav-link {
+    color: white;
+    margin: 0 5px;
+    background-color: transparent;
+    border: 1px solid #6c757d;
+    border-radius: 20px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #6c757d;
+    color: white;
+}
+
+   /* Movie Title */
+   .movie-title {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Poppins";
+}
+
+
+/* Movie info (spaced text) */
+.spaced-text {
+    font-size: 1rem;
+    color: #a5a5a5;
+    margin: 10px 0;
+}
+
+/* Rating Section */
+.rating-section {
+    margin-top: 20px;
+}
+
+.stars {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.stars .star {
+    padding: 5px;
+    transition: color 0.2s ease;
+}
+
+.stars .star:hover,
+.stars .star.selected {
+    color: #f4b400;
+}
+
+#rating-display {
+    font-weight: bold;
+    color: #f4b400;
+}
+
+/* Review Section */
+.review-section {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.review-title {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    background-color: #121212;
+    color: #fff;
+    border: 1px solid #666;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #ae52ef;
+}
+
+.btn {
+    background-color: #ae52ef;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.btn:hover {
+    background-color: #9c4dcc;
+}
+
+/* Reviews List */
+.reviews-list {
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 15px;
+}
+
+.review-item {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.review-item p {
+    font-size: 1rem;
+    color: #fff;
+    margin: 0;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+/* contact us page css */
+  /* Input box */
+  .form-group {
+    position: relative;
+}
+
+.form-control {
+    background-color: #ff000000;
+    color: #A5A5A5 !important;
+    border: 1px solid #666;
+    border-radius: 15px;
+    padding: 12px 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.form-control:focus {
+    background-color: #000;
+    /* Black background on focus */
+    border-color: #ae52ef;
+    /* Optional: add purple border on focus */
+    outline: none;
+}
+
+.floating-label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    transition: 0.3s ease all;
+    pointer-events: none;
+    font-size: 18px;
+}
+
+.form-control:focus~.floating-label,
+.form-control:not(:placeholder-shown)~.floating-label {
+    top: 12px;
+    /* Adjusted for higher placement */
+    left: 10px;
+    font-size: 16px;
+    /* Increased font size when label floats */
+    padding: 8px 8px;
+    /* Adds more space around the floating label */
+    margin-top: 4px;
+    /* Add margin on top */
+    margin-bottom: 4px;
+    /* Add margin on bottom */
+}
+
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.form-control::placeholder {
+    color: white;
+    opacity: 0.7;
+    /* Ensures the placeholder color is not dimmed */
+}
+
+/*Password reset page */
+.code-container {
+    display: flex;
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+.code-input {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #CCCCCC;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+}
+
+.code-input:focus {
+    border-color: #9c4dcc;
+    outline: none;
+}
+
+.contactUs-container {
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.contact-section {
+    background: linear-gradient(to bottom left, rgba(60, 0, 75, 0.8) 10%, #0d0d0d 30%, #00000000 90%);
+    padding: 2rem;
+
+}
+.thank-you-message {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #a5a5a5; /* Light gray color for text */
+    margin-top: 0px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
